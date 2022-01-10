@@ -1,0 +1,59 @@
+{
+    "name": "vinelab/url-shortener",
+    "description": "URL shortening the easy way.",
+    "license": "MIT",
+    "keywords": [
+      "Shorten",
+      "URL",
+      "URL-Shortener",
+      "URL Shortener",
+      "bitly",
+      "Bit.ly",
+      "Laravel"
+    ],
+    "authors": [
+        {
+            "name": "Abed Halawi",
+            "email": "abed.halawi@vinelab.com",
+            "homepage": "http://about.me/abedhalawi",
+            "role": "Tech Lead"
+        },
+        {
+            "name": "Mahmoud Zalt",
+            "email": "inbox@mahmoudzalt.com",
+            "homepage": "http://www.mahmoudzalt.com",
+            "role": "Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*",
+        "illuminate/config": "5.*",
+        "symfony/finder": "~2.7",
+        "Vinelab/http": "1.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*",
+        "mockery/mockery": "0.9.*",
+        "symfony/var-dumper": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vinelab\\UrlShortener\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vinelab\\UrlShortener\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
